@@ -46,9 +46,7 @@ Using this dataset, several nearal network based binary classifiers, that can pr
 
 Model was trianed for 37 epochs, using a batch size of 64. Below is the classification report showing this model only achieved an accuracy score of 73%, which is below the required 75%.
 
-
-
-![base model report](C:\Users\Nathan\My%20Drive\Columbia%20Data%20Analytics%20Bootcamp\deep-learning-challenge\base_model.png)
+![base model report](base_model.png)
 
 ### Optimized Neural Nework Model
 
@@ -68,11 +66,7 @@ The resulting dataset now contained only 27 (vs. 43) independent variables to ma
 
 Instead of hand tunning the model, the Keras Tuner was used to perform automatic hyperparemter optimization resulting in 254 different models being trained/evaluated. Whereas the best XGB model results in a 78.3% accuracy score, the best neural network model achieves an accuracy score of only 76.3%.
 
-
-
 ![XGB model](xgb_model.png)
-
-
 
 ![](optimized_model.png)
 
